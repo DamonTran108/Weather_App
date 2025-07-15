@@ -19,7 +19,6 @@
     "buffer-from": "^1.1.2",
     "caniuse-lite": "^1.0.30001727",
     "chrome-trace-event": "^1.0.4",
-    "commander": "^2.20.3",
     "electron-to-chromium": "^1.5.180",
     "enhanced-resolve": "^5.18.2",
     "es-module-lexer": "^1.7.0",

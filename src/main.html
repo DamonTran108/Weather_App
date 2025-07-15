@@ -10,14 +10,53 @@
             <div class = "header">Weather Forecast</div>
 
             <div class = "search_container">
-            <input type = "text" class = "location_input" placeholder="Enter a city">
-            <button class = "btn_submit">Submit</button>
+                <input type = "text" id = "location_input" placeholder="Enter a city">
+                <button id = "btn_submit">Submit</button>
+                <label>Farenheit</label>
+                <label class="switch">
+                    <input id = "convertBtn" type="checkbox">
+                    <span class="slider round"></span>
+            </label>
+            <label>Celsius</label>
         </div>
 
-        <div class = "weather_display_container">
+        <div id = "weather_display_container"> 
+
+            <div id = "location_container">
+                  <label>Location</label>
+                   <h3 id = "location"></h3>
+             </div>
+
+              <div id = "time_container">
+                  <label>time</label>
+                  <h3 id = "time"></h3>
+             </div>
+
+              <div id = "avg_temp_container">
+                  <label>avg_temp</label>
+                  <h3 id = "avg_temp"></h3>
+             </div>
+
+               <div id = "feelsLike_container">
+                  <label>feelsLike</label>
+                   <h3 id = "feelsLike"></h3>
+             </div>
+             
+               <div id = "actualTemp_container">
+                  <label>actualTemp</label>
+                  <h3 id = "actualTemp"></h3>
+             </div>
+
+               <div id = "condition_container">
+                  <label>condition</label>
+                   <h3 id = "condition"></h3>
+             </div>
             
+               
+          
 
-
+            
+        
         </div>
 
 
